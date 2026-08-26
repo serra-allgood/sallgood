@@ -1,6 +1,15 @@
 {
-  "name": "@once-ui-system/magic-portfolio",
-  "version": "2.3.0",
+  "name": "allgood.dev",
+  "version": "0.0.0",
+  "description": "Personal site of Serra Allgood",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serra-allgood/sallgood.git"
+  },
+  "keywords": [],
+  "author": "Serra Allgood <serra@allgood.dev>",
+  "license": "UNLICENSED",
+  "homepage": "https://github.com/serra-allgood/sallgood#readme",
   "scripts": {
     "dev": "next dev",
     "export": "next export",
@@ -34,5 +43,11 @@
     "eslint": "^9.25.0",
     "typescript": "^5.8.3",
     "tzdata": "^1.0.44"
+  },
+  "allowScripts": {
+    "@biomejs/biome@1.9.4": true,
+    "@parcel/watcher@2.5.1": true,
+    "sharp@0.34.4": true,
+    "sharp@0.33.5": true
   }
 }
