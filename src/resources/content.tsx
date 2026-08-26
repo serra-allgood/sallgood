@@ -46,18 +46,6 @@ const social: Social = [
 		essential: true,
 	},
 	{
-		name: "Instagram",
-		icon: "instagram",
-		link: "https://www.instagram.com/once_ui/",
-		essential: false,
-	},
-	{
-		name: "Threads",
-		icon: "threads",
-		link: "https://www.threads.com/@once_ui",
-		essential: false,
-	},
-	{
 		name: "Email",
 		icon: "email",
 		link: `mailto:${person.email}`,
