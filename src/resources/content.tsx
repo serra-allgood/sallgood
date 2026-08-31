@@ -106,16 +106,15 @@ const about: About = {
 		title: "Introduction",
 		description: (
 			<>
-				{person.firstName} is a {person.physicalLocation}-based{" "}
-				{person.role.toLowerCase()}. An experienced professional with
-				demonstrated success designing elegant software solutions for complex
-				applications across multiple industries. Mostly self-taught as a
-				software engineer, and has achieved recognition in every position thus
-				far. An extremely fast learner, capable of adapting to any environment
-				and industry, with a passion for technology, people, and the
-				intersection between. With core values of radical authenticity and
-				intentional curiosity, she keeps focus on delivering timely project
-				results, continuous learning, and driving organizational goals.
+				Serra is a Vermont-based staff software engineer who designs elegant
+				solutions for complex problems across industries. Largely self-taught,
+				she has earned recognition in every role she's taken on as an
+				exceptional adaptability and relentless pace of learning let her thrive
+				in any environment. Her passion lives at the intersection of technology
+				and people, guided by two core values: radical authenticity and
+				intentional curiosity. She keeps her focus where it matters most:
+				delivering on time, learning continuously, and advancing the goals of
+				the organizations she serves.
 			</>
 		),
 	},
