@@ -59,7 +59,7 @@ const home: Home = {
 	label: "Home",
 	title: `${person.name}'s Portfolio`,
 	description: `Portfolio website showcasing my work as a ${person.role}`,
-	headline: <>Self-taught software engineer and nonbinary iconoclast</>,
+	headline: <>Software engineer and nonbinary iconoclast</>,
 	featured: {
 		display: false,
 		title: (
@@ -75,12 +75,13 @@ const home: Home = {
 	},
 	subline: (
 		<>
-			I'm {person.firstName}, a {person.role.toLowerCase()} at{" "}
-			<Text as="span" size="xl" weight="strong">
-				Unite Us
-			</Text>
-			, where I craft exceptional code architecture and infrastructure. After
-			hours, I hack on new technologies. Any pronouns accepted.
+			I'm Serra, a senior/staff software engineer. I try to wrap my head around
+			complex technical and social domains at work. After hours, I hack on new
+			(to me) technologies, especially on the{" "}
+			<a href="https://matrix.org" target="_blank" rel="noreferrer">
+				Matrix Protocol
+			</a>
+			. Any pronouns accepted.
 		</>
 	),
 };
@@ -106,15 +107,14 @@ const about: About = {
 		title: "Introduction",
 		description: (
 			<>
-				Serra is a Vermont-based staff software engineer who designs elegant
-				solutions for complex problems across industries. Largely self-taught,
-				she has earned recognition in every role she's taken on as an
-				exceptional adaptability and relentless pace of learning let her thrive
-				in any environment. Her passion lives at the intersection of technology
-				and people, guided by two core values: radical authenticity and
-				intentional curiosity. She keeps her focus where it matters most:
-				delivering on time, learning continuously, and advancing the goals of
-				the organizations she serves.
+				Serra is a Vermont-based staff software engineer who has designed
+				elegant solutions for complex problems across a variety of industries.
+				Largely self-taught, she has earned recognition in every role she's
+				taken on with an exceptional adaptability and a relentless pace of
+				learning; her specialty is improving large, legacy codebases. Her
+				passion is the intersection of technology and people. She keeps her
+				focus where it matters most: delivering on time, learning continuously,
+				and advancing the goals of the organizations she serves.
 			</>
 		),
 	},
