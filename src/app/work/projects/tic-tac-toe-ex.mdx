@@ -1,0 +1,38 @@
+---
+title: "TicTacToeEx"
+publishedAt: "2026-09-09"
+summary: "Demonstrating proficiency in Elixir with a simple game"
+images:
+link: "https://github.com/serra-allgood/tic_tac_toe_ex"
+---
+
+## Overview
+
+It is a Tic-Tac-Toe game server that supports public and private games between users, using a
+LiveView interface. Users looking for any game can join the public queue. The server will check for
+currently pending games first and join the user to the first available game. If there are no available
+games, the server will create a pending game and push an update to the client if another player joins.
+A user can also generate a private game, which will generate an invite code that can be copied and sent
+to another player.
+
+The database serves as the source of truth for game state. In addition to the two LiveView processes driving the two players' UI interactions, starting a game will spin up a supervisor tree with eight LineServer actors. Each actor corresponds to a three-in-a-row line on the game board, and when a piece is placed, relevant LineServer actors check to see if the win condition is present and broadcast via PubSub if so.
+
+After a game concludes, the database is cleaned of the relevant records.
+
+## Key Features
+
+- **Massive Concurrency, Itty Bitty Resource Use**: Leveraging Erlang OTP processes, TicTacToeEx is capable of
+running millions of concurrent games at once with minimal resource use.
+- **Fault Tolerant**: Should one of those back end processes crash, it will automatically restart and rehydrate its state from the source of truth, the database.
+
+## AI/LLM Usage
+
+GitHub Copilot is used in this project, mainly to write unit tests and find bugs.
+
+## Technologies Used
+
+- **Elixir**
+- **Phoenix**
+- **LiveView**
+- **Ecto**
+- **Postgres**
