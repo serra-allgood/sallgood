@@ -81,7 +81,8 @@ const home: Home = {
 			<a href="https://matrix.org" target="_blank" rel="noreferrer">
 				Matrix Protocol
 			</a>
-			. Any pronouns accepted.
+			. I chose this portfolio site template because I think it's pretty.
+			<p>Any pronounds accepted.</p>
 		</>
 	),
 };
