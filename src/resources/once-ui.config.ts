@@ -20,13 +20,13 @@ const routes: RoutesConfig = {
 	"/": true,
 	"/about": true,
 	"/work": true,
-	"/blog": false,
+	"/blog": true,
 	"/gallery": false,
 };
 
 const display: DisplayConfig = {
-	location: true,
-	time: true,
+	location: false,
+	time: false,
 	themeSwitcher: true,
 };
 
